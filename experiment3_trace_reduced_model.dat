@@ -1,0 +1,304 @@
+Data Read in from File : experiment3_trace
+Data Sampling Frequency: 1000000.000000 Hz
+Data Sampling Period: 0.000001 sec
+New Sampling Frequency After Decimation: 1000.000000 Hz
+New Sampling Period After Decimation: 0.001000 sec
+
+Inference Parameters and Other Details
+New Data Set Length: 12516
+Dimension of Observations: 2
+
+
+
+Statistics for Each State
+
+State 1 (Posterior Model State 1)
+Poisson Rate lambda = 76.484018
+Multivariate Gaussian Mean Vector mu = -0.011695	0.007560	
+Multivariate Gaussian Covariance Matrix sigma: 
+0.007019	0.000006	
+0.000006	0.008702	
+
+State 2 (Posterior Model State 2)
+Poisson Rate lambda = 38.455004
+Multivariate Gaussian Mean Vector mu = -0.006148	0.012253	
+Multivariate Gaussian Covariance Matrix sigma: 
+0.007432	0.000055	
+0.000055	0.008588	
+
+State 3 (Posterior Model State 3)
+Poisson Rate lambda = 169.223614
+Multivariate Gaussian Mean Vector mu = -0.023606	0.014532	
+Multivariate Gaussian Covariance Matrix sigma: 
+0.105514	0.000324	
+0.000324	0.121401	
+
+State 4 (Posterior Model State 4)
+Poisson Rate lambda = 136.922076
+Multivariate Gaussian Mean Vector mu = -0.020761	0.008234	
+Multivariate Gaussian Covariance Matrix sigma: 
+0.099470	0.003197	
+0.003197	0.109579	
+
+
+
+
+
+State Transition Matrix
+0.000000	0.929059	0.000921	0.070020	
+0.905755	0.000000	0.000013	0.094232	
+0.022390	0.532662	0.000000	0.444948	
+0.009691	0.166226	0.824083	0.000000	
+
+Initial State Distribution
+0.385113	0.421895	0.087387	0.105604	
+
+
+Maximum Number of States Possible: 4
+Transition Distribution Hyperparameters ~Dir(alpha/Nmax, gamma): 
+	 alpha = 4.000000
+	 gamma = 4.000000
+Initial State Hyperparameter ~Dir(rho/Nmax): 4.000000
+Number of Iterations : 1
+*****************************************************
+
+
+
+
+
+
+
+
+
+Resulting State Sequence After Last Iteration
+State 	 Duration 
+4 	      139
+2 	      38
+4 	      129
+1 	      77
+2 	      20
+1 	      103
+2 	      24
+1 	      116
+2 	      20
+1 	      100
+2 	      23
+1 	      66
+4 	      156
+2 	      33
+4 	      124
+1 	      96
+2 	      18
+1 	      95
+2 	      23
+1 	      109
+2 	      23
+1 	      83
+2 	      16
+1 	      127
+2 	      20
+1 	      93
+2 	      22
+1 	      113
+2 	      23
+1 	      91
+2 	      22
+1 	      106
+2 	      17
+1 	      111
+2 	      19
+1 	      103
+2 	      25
+1 	      88
+2 	      16
+1 	      92
+2 	      19
+1 	      121
+4 	      131
+2 	      28
+4 	      150
+1 	      121
+2 	      10
+1 	      92
+2 	      14
+1 	      93
+2 	      20
+1 	      78
+2 	      16
+1 	      69
+2 	      22
+1 	      102
+2 	      19
+1 	      76
+2 	      26
+1 	      79
+2 	      22
+1 	      106
+4 	      173
+2 	      31
+4 	      208
+2 	      33
+4 	      163
+1 	      84
+2 	      18
+1 	      69
+2 	      25
+1 	      82
+2 	      22
+1 	      74
+2 	      23
+1 	      83
+2 	      20
+1 	      95
+2 	      20
+1 	      95
+2 	      19
+1 	      66
+4 	      158
+2 	      26
+4 	      127
+1 	      79
+2 	      17
+1 	      82
+2 	      16
+1 	      91
+4 	      156
+2 	      23
+4 	      143
+2 	      20
+4 	      119
+2 	      30
+4 	      123
+1 	      122
+2 	      34
+4 	      145
+2 	      26
+4 	      175
+2 	      33
+4 	      142
+2 	      35
+4 	      145
+2 	      30
+4 	      183
+1 	      74
+2 	      18
+1 	      73
+4 	      134
+2 	      33
+4 	      146
+1 	      83
+2 	      27
+1 	      84
+2 	      15
+1 	      68
+4 	      147
+2 	      28
+4 	      166
+2 	      29
+4 	      164
+2 	      29
+4 	      155
+2 	      31
+4 	      141
+2 	      46
+1 	      108
+2 	      23
+1 	      89
+2 	      19
+1 	      92
+2 	      21
+1 	      114
+2 	      18
+1 	      94
+2 	      20
+1 	      95
+4 	      114
+2 	      36
+4 	      160
+1 	      98
+2 	      22
+1 	      101
+2 	      21
+1 	      92
+2 	      13
+1 	      92
+2 	      29
+1 	      106
+2 	      26
+1 	      120
+2 	      23
+1 	      101
+2 	      25
+1 	      94
+2 	      20
+1 	      74
+2 	      25
+1 	      72
+2 	      20
+1 	      111
+2 	      15
+1 	      108
+2 	      23
+1 	      107
+2 	      31
+1 	      125
+4 	      119
+2 	      31
+4 	      159
+1 	      85
+
+
+
+Statistics for Each State
+
+State 1
+Poisson Rate lambda = 69.469641
+Multivariate Gaussian Mean Vector mu = -0.024410	0.010230	
+Multivariate Gaussian Covariance Matrix sigma: 
+0.008893	0.000252	
+0.000252	0.013666	
+
+State 2
+Poisson Rate lambda = 35.586525
+Multivariate Gaussian Mean Vector mu = -0.001456	0.006772	
+Multivariate Gaussian Covariance Matrix sigma: 
+0.046778	0.000502	
+0.000502	0.052411	
+
+State 4
+Poisson Rate lambda = 142.569526
+Multivariate Gaussian Mean Vector mu = -0.021787	0.098303	
+Multivariate Gaussian Covariance Matrix sigma: 
+0.084846	0.004770	
+0.004770	0.094876	
+
+
+
+
+
+State Transition Matrix
+State 1		0.000000	0.796172	0.192463	
+State 2		0.000288	0.000000	0.997620	
+State 4		0.113865	0.886135	0.000000	
+
+Initial State Distribution
+0.065177	0.502273	0.066500	
+
+
+
+
+
+State Transition Counting Matrix
+State 1		0	56	9	
+State 2		56	0	21	
+State 4		10	21	0	
+
+
+Normalized State Transition Counting Matrix
+State 1		0.000000	0.861538	0.138462	
+State 2		0.727273	0.000000	0.272727	
+State 4		0.322581	0.677419	0.000000	
+
+
+
+

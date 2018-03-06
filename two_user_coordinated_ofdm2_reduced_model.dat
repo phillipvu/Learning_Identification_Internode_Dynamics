@@ -1,0 +1,293 @@
+Data Read in from File : two_user_coordinated_ofdm2
+Data Sampling Frequency: 1000000.000000 Hz
+Data Sampling Period: 0.000001 sec
+New Sampling Frequency After Decimation: 250.000000 Hz
+New Sampling Period After Decimation: 0.004000 sec
+
+Inference Parameters and Other Details
+New Data Set Length: 1675
+Dimension of Observations: 2
+
+
+
+Statistics for Each State
+
+State 1 (Posterior Model State 1)
+Poisson Rate lambda = 36.243788
+Multivariate Gaussian Mean Vector mu = 0.009961	-0.046149	
+Multivariate Gaussian Covariance Matrix sigma: 
+0.105969	-0.014561	
+-0.014561	0.108192	
+
+State 2 (Posterior Model State 2)
+Poisson Rate lambda = 39.267803
+Multivariate Gaussian Mean Vector mu = 0.023120	-0.015350	
+Multivariate Gaussian Covariance Matrix sigma: 
+0.107980	-0.006167	
+-0.006167	0.079944	
+
+State 3 (Posterior Model State 3)
+Poisson Rate lambda = 29.465346
+Multivariate Gaussian Mean Vector mu = -0.000500	0.003656	
+Multivariate Gaussian Covariance Matrix sigma: 
+0.002307	0.000010	
+0.000010	0.002315	
+
+State 4 (Posterior Model State 4)
+Poisson Rate lambda = 59.694225
+Multivariate Gaussian Mean Vector mu = -0.005030	-0.001236	
+Multivariate Gaussian Covariance Matrix sigma: 
+0.030735	0.000463	
+0.000463	0.029473	
+
+
+
+
+
+State Transition Matrix
+0.000000	0.026642	0.647059	0.326300	
+0.792732	0.000000	0.004356	0.202912	
+0.730448	0.094603	0.000000	0.174949	
+0.432407	0.092689	0.474904	0.000000	
+
+Initial State Distribution
+0.389795	0.061875	0.347747	0.200583	
+
+
+Maximum Number of States Possible: 4
+Transition Distribution Hyperparameters ~Dir(alpha/Nmax, gamma): 
+	 alpha = 4.000000
+	 gamma = 4.000000
+Initial State Hyperparameter ~Dir(rho/Nmax): 4.000000
+Number of Iterations : 50
+*****************************************************
+
+
+
+
+
+
+
+
+
+Resulting State Sequence After Last Iteration
+State 	 Duration 
+2 	      23
+3 	      22
+1 	      38
+3 	      50
+1 	      37
+3 	      14
+2 	      37
+3 	      17
+1 	      36
+3 	      49
+2 	      73
+3 	      17
+2 	      37
+3 	      53
+2 	      34
+3 	      36
+1 	      37
+3 	      7
+2 	      36
+3 	      43
+2 	      76
+1 	      36
+3 	      35
+1 	      38
+3 	      51
+1 	      36
+3 	      9
+2 	      36
+1 	      38
+3 	      15
+4 	      143
+2 	      68
+1 	      46
+2 	      58
+3 	      14
+2 	      53
+1 	      41
+3 	      16
+1 	      41
+4 	      179
+
+
+
+Statistics for Each State
+
+State 1
+Poisson Rate lambda = 35.508348
+Multivariate Gaussian Mean Vector mu = 0.023776	0.010733	
+Multivariate Gaussian Covariance Matrix sigma: 
+0.081629	-0.014619	
+-0.014619	0.092224	
+
+State 2
+Poisson Rate lambda = 46.327665
+Multivariate Gaussian Mean Vector mu = 0.004905	0.021955	
+Multivariate Gaussian Covariance Matrix sigma: 
+0.031063	0.000400	
+0.000400	0.029537	
+
+State 3
+Poisson Rate lambda = 27.011892
+Multivariate Gaussian Mean Vector mu = 0.003679	0.003929	
+Multivariate Gaussian Covariance Matrix sigma: 
+0.002711	0.000052	
+0.000052	0.002529	
+
+State 4
+Poisson Rate lambda = 153.657006
+Multivariate Gaussian Mean Vector mu = 0.004042	0.013086	
+Multivariate Gaussian Covariance Matrix sigma: 
+0.084978	0.002386	
+0.002386	0.073127	
+
+
+
+
+
+State Transition Matrix
+State 1		0.000000	0.117411	0.825449	0.057140	
+State 2		0.246979	0.000000	0.753021	0.000000	
+State 3		0.709813	0.250961	0.000000	0.039226	
+State 4		0.233878	0.345717	0.420404	0.000000	
+
+Initial State Distribution
+0.392785	0.173654	0.093220	0.340341	
+
+
+
+
+
+State Transition Counting Matrix
+State 1		0	1	9	1	
+State 2		4	0	7	0	
+State 3		7	8	0	1	
+State 4		0	1	0	0	
+
+
+Normalized State Transition Counting Matrix
+State 1		0.000000	0.090909	0.818182	0.090909	
+State 2		0.363636	0.000000	0.636364	0.000000	
+State 3		0.437500	0.500000	0.000000	0.062500	
+State 4		0.000000	1.000000	0.000000	0.000000	
+
+
+
+
+
+
+
+
+
+Final Results of Further Model Removal of Short-Duration States
+Resulting State Sequence After Last Iteration
+State 	 Duration 
+2 	      23
+3 	      22
+1 	      38
+3 	      50
+1 	      37
+3 	      14
+2 	      37
+3 	      17
+1 	      36
+3 	      49
+2 	      73
+3 	      17
+2 	      37
+3 	      53
+2 	      34
+3 	      36
+1 	      37
+3 	      7
+2 	      36
+3 	      43
+2 	      76
+1 	      36
+3 	      35
+1 	      38
+3 	      51
+1 	      36
+3 	      9
+2 	      36
+1 	      38
+3 	      15
+4 	      143
+2 	      68
+1 	      46
+2 	      58
+3 	      14
+2 	      53
+1 	      41
+3 	      16
+1 	      41
+4 	      179
+
+
+
+Statistics for Each State
+
+State 1
+Poisson Rate lambda = 35.508348
+Multivariate Gaussian Mean Vector mu = 0.023776	0.010733	
+Multivariate Gaussian Covariance Matrix sigma: 
+0.081629	-0.014619	
+-0.014619	0.092224	
+
+State 2
+Poisson Rate lambda = 46.327665
+Multivariate Gaussian Mean Vector mu = 0.004905	0.021955	
+Multivariate Gaussian Covariance Matrix sigma: 
+0.031063	0.000400	
+0.000400	0.029537	
+
+State 3
+Poisson Rate lambda = 27.011892
+Multivariate Gaussian Mean Vector mu = 0.003679	0.003929	
+Multivariate Gaussian Covariance Matrix sigma: 
+0.002711	0.000052	
+0.000052	0.002529	
+
+State 4
+Poisson Rate lambda = 153.657006
+Multivariate Gaussian Mean Vector mu = 0.004042	0.013086	
+Multivariate Gaussian Covariance Matrix sigma: 
+0.084978	0.002386	
+0.002386	0.073127	
+
+
+
+
+
+State Transition Matrix
+State 1		0.000000	0.117411	0.825449	0.057140	
+State 2		0.246979	0.000000	0.753021	0.000000	
+State 3		0.709813	0.250961	0.000000	0.039226	
+State 4		0.233878	0.345717	0.420404	0.000000	
+
+
+
+
+
+State 3 is the Idle State
+
+State Transition Counting Matrix
+State 1		0	1	9	1	
+State 2		4	0	7	0	
+State 3		7	8	0	1	
+State 4		0	1	0	0	
+
+
+Normalized State Transition Counting Matrix
+State 1		0.000000	0.090909	0.818182	0.090909	
+State 2		0.363636	0.000000	0.636364	0.000000	
+State 3		0.437500	0.500000	0.000000	0.062500	
+State 4		0.000000	1.000000	0.000000	0.000000	
+
+
+
+

@@ -1,0 +1,164 @@
+USB USRPS
+
+ /
+|       Device: B-Series Device
+|     _____________________________________________________
+|    /
+|   |       Mboard: B100
+|   |   revision: 8192
+|   |   serial: E9R10ZBB1
+|   |   name: usb_usrp2
+|   |   
+|   |   Time sources: none, external, _external_
+|   |   Clock sources: internal, external, auto
+|   |   Sensors: ref_locked
+|   |     _____________________________________________________
+|   |    /
+|   |   |       RX DSP: 0
+|   |   |   Freq range: -32.000 to 32.000 Mhz
+|   |     _____________________________________________________
+|   |    /
+|   |   |       RX DSP: 1
+|   |   |   Freq range: -32.000 to 32.000 Mhz
+|   |     _____________________________________________________
+|   |    /
+|   |   |       RX Dboard: A
+|   |   |   ID: SBX (0x0054)
+|   |   |   Serial: E9R13XBXS
+|   |   |     _____________________________________________________
+|   |   |    /
+|   |   |   |       RX Subdev: 0
+|   |   |   |   Name: SBXv3 RX
+|   |   |   |   Antennas: TX/RX, RX2, CAL
+|   |   |   |   Sensors: lo_locked
+|   |   |   |   Freq range: 400.000 to 4400.000 Mhz
+|   |   |   |   Gain range PGA0: 0.0 to 31.5 step 0.5 dB
+|   |   |   |   Connection Type: IQ
+|   |   |   |   Uses LO offset: No
+|   |   |     _____________________________________________________
+|   |   |    /
+|   |   |   |       RX Codec: A
+|   |   |   |   Name: ad9522
+|   |   |   |   Gain range pga: 0.0 to 20.0 step 1.0 dB
+|   |     _____________________________________________________
+|   |    /
+|   |   |       TX DSP: 0
+|   |   |   Freq range: -32.000 to 32.000 Mhz
+|   |     _____________________________________________________
+|   |    /
+|   |   |       TX Dboard: A
+|   |   |   ID: SBX (0x0055)
+|   |   |   Serial: E9R13XBXS
+|   |   |     _____________________________________________________
+|   |   |    /
+|   |   |   |       TX Subdev: 0
+|   |   |   |   Name: SBXv3 TX
+|   |   |   |   Antennas: TX/RX, CAL
+|   |   |   |   Sensors: lo_locked
+|   |   |   |   Freq range: 400.000 to 4400.000 Mhz
+|   |   |   |   Gain range PGA0: 0.0 to 31.5 step 0.5 dB
+|   |   |   |   Connection Type: QI
+|   |   |   |   Uses LO offset: No
+|   |   |     _____________________________________________________
+|   |   |    /
+|   |   |   |       TX Codec: A
+|   |   |   |   Name: ad9522
+|   |   |   |   Gain range pga: -20.0 to 0.0 step 0.1 dB
+
+
+
+transmission gain range [-20.000000, 31.500000]
+default transmission gain 5.75
+
+reception gain range [0.000000, 51.500000]
+default reception gain 25.75
+
+
+
+
+******************************************************************************************************************
+
+
+
+
+ETHERNET USRPS
+
+ /
+|       Device: USRP2 / N-Series Device
+|     _____________________________________________________
+|    /
+|   |       Mboard: N210r4
+|   |   hardware: 2577
+|   |   mac-addr: a0:36:fa:25:3c:c0
+|   |   ip-addr: 192.168.10.2
+|   |   subnet: 255.255.255.255
+|   |   gateway: 255.255.255.255
+|   |   gpsdo: none
+|   |   serial: ECR1CR0UP[0.000000, 38.000000]
+|   |   FW Version: 12.2
+|   |   FPGA Version: 10.0
+|   |   
+|   |   Time sources: none, external, _external_, mimo
+|   |   Clock sources: internal, external, mimo
+|   |   Sensors: mimo_locked, ref_locked
+|   |     _____________________________________________________
+|   |    /
+|   |   |       RX DSP: 0
+|   |   |   Freq range: -50.000 to 50.000 Mhz
+|   |     _____________________________________________________
+|   |    /
+|   |   |       RX DSP: 1
+|   |   |   Freq range: -50.000 to 50.000 Mhz
+|   |     _____________________________________________________
+|   |    /
+|   |   |       RX Dboard: A
+|   |   |   ID: SBX (0x0054)
+|   |   |   Serial: ECR14X8XS
+|   |   |     _____________________________________________________
+|   |   |    /
+|   |   |   |       RX Frontend: 0
+|   |   |   |   Name: SBXv3 RX
+|   |   |   |   Antennas: TX/RX, RX2, CAL
+|   |   |   |   Sensors: lo_locked
+|   |   |   |   Freq range: 400.000 to 4400.000 Mhz
+|   |   |   |   Gain range PGA0: 0.0 to 31.5 step 0.5 dB
+|   |   |   |   Connection Type: IQ
+|   |   |   |   Uses LO offset: No
+|   |   |     _____________________________________________________
+|   |   |    /
+|   |   |   |       RX Codec: A
+|   |   |   |   Name: ads62p44
+|   |   |   |   Gain range digital: 0.0 to 6.0 step 0.5 dB
+|   |   |   |   Gain range fine: 0.0 to 0.5 step 0.1 dB
+|   |     _____________________________________________________
+|   |    /
+|   |   |       TX DSP: 0
+|   |   |   Freq range: -250.000 to 250.000 Mhz
+|   |     _____________________________________________________
+|   |    /
+|   |   |       TX Dboard: A
+|   |   |   ID: SBX (0x0055)
+|   |   |   Serial: ECR14X8XS
+|   |   |     _____________________________________________________
+|   |   |    /
+|   |   |   |       TX Frontend: 0
+|   |   |   |   Name: SBXv3 TX
+|   |   |   |   Antennas: TX/RX, CAL
+|   |   |   |   Sensors: lo_locked
+|   |   |   |   Freq range: 400.000 to 4400.000 Mhz
+|   |   |   |   Gain range PGA0: 0.0 to 31.5 step 0.5 dB
+|   |   |   |   Connection Type: QI
+|   |   |   |   Uses LO offset: No
+|   |   |     _____________________________________________________
+|   |   |    /
+|   |   |   |       TX Codec: A
+|   |   |   |   Name: ad9777
+|   |   |   |   Gain Elements: None
+
+
+
+transmission gain range [0.000000, 31.500000]
+default transmission gain 15.75
+
+reception gain range [0.000000, 38.000000]
+default reception gain 19.00

@@ -1,0 +1,101 @@
+Data Read in from File : trial1_trace
+Data Sampling Frequency: 1000000.000000 Hz
+Data Sampling Period: 0.000001 sec
+New Sampling Frequency After Decimation: 5000.000000 Hz
+New Sampling Period After Decimation: 0.000200 sec
+
+Inference Parameters and Other Details
+New Data Set Length: 60001
+Dimension of Observations: 2
+Maximum Number of States Possible: 4
+
+State 1 Duration Hyperparameters ~Gamma(a,b): a = 10.000000, b = 5.000000
+State 1 Observation Hyperparameters ~IW(mu,sigma,nu,kappa): 
+	 mu = 0.000000	0.000000	
+	 sigma = 1.000000	0.000000	
+			 0.000000	1.000000	
+	 nu = 5.000000
+	 kappa = 3.000000
+State 2 Duration Hyperparameters ~Gamma(a,b): a = 10.000000, b = 5.000000
+State 2 Observation Hyperparameters ~IW(mu,sigma,nu,kappa): 
+	 mu = 0.000000	0.000000	
+	 sigma = 1.000000	0.000000	
+			 0.000000	1.000000	
+	 nu = 8.000000
+	 kappa = 3.000000
+State 3 Duration Hyperparameters ~Gamma(a,b): a = 20.000000, b = 6.000000
+State 3 Observation Hyperparameters ~IW(mu,sigma,nu,kappa): 
+	 mu = 0.000000	0.000000	
+	 sigma = 1.000000	0.000000	
+			 0.000000	1.000000	
+	 nu = 11.000000
+	 kappa = 3.000000
+State 4 Duration Hyperparameters ~Gamma(a,b): a = 20.000000, b = 6.000000
+State 4 Observation Hyperparameters ~IW(mu,sigma,nu,kappa): 
+	 mu = 0.000000	0.000000	
+	 sigma = 1.000000	0.000000	
+			 0.000000	1.000000	
+	 nu = 4.600000
+	 kappa = 0.100000
+
+
+
+Transition Distribution Hyperparameters ~Dir(alpha/Nmax, gamma): 
+	 alpha = 3.000000
+	 gamma = 3.000000
+Initial State Hyperparameter ~Dir(rho/Nmax): 3.000000
+Number of Iterations : 50
+*****************************************************
+
+
+
+
+
+
+
+
+
+Initial Draw for Posterior Model
+Statistics for Each State
+State 1
+Poisson Rate lambda = 26.009245
+Multivariate Gaussian Mean Vector mu = -1.006823	0.301335	
+Multivariate Gaussian Covariance Matrix sigma: 
+0.808235	-0.008911	
+-0.008911	0.153002	
+
+State 2
+Poisson Rate lambda = 43.465600
+Multivariate Gaussian Mean Vector mu = -0.064046	-0.278666	
+Multivariate Gaussian Covariance Matrix sigma: 
+0.066881	0.024498	
+0.024498	0.121641	
+
+State 3
+Poisson Rate lambda = 115.258841
+Multivariate Gaussian Mean Vector mu = 0.094523	0.114191	
+Multivariate Gaussian Covariance Matrix sigma: 
+0.060479	0.024335	
+0.024335	0.186199	
+
+State 4
+Poisson Rate lambda = 95.475865
+Multivariate Gaussian Mean Vector mu = -0.641180	2.203698	
+Multivariate Gaussian Covariance Matrix sigma: 
+0.195841	-0.058821	
+-0.058821	0.122840	
+
+
+State Transition Matrix
+0.000000	0.010789	0.110791	0.878420	
+0.029529	0.000000	0.103053	0.867418	
+0.054794	0.312030	0.000000	0.633176	
+0.024323	0.000004	0.975673	0.000000	
+
+Initial State Distribution
+0.498759	0.231293	0.020014	0.249935	
+*************************************************************************
+
+
+
+

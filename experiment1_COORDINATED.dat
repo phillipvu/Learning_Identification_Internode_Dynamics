@@ -1,0 +1,114 @@
+Transmission Frequency: 2422000000.0 Hz
+Number of Generated States: 100
+State Transition Matrix (P_ij means go to state j from state i): [[0, 1], [1, 0]]
+Probability of USRP 1 Transmitting in ON State: 0.5
+
+
+USRP 1
+OFDM with Modulation: bpsk
+Symbol Bandwidth: 250000.0
+Packet Size Before Header and CRC: [508, 510, 512]
+Number of Occupied Tones: 200
+Cyclic Prefix Length: 128
+FFT Length: 512
+
+ON State Emission Probabilities: [0.5, 0.5, 0]
+ON State Packet Bunch Sizes: [5, 10, 15]
+ON State Packet Bunch Transmission Amplitudes: [0.90000000000000002, 0.90000000000000002, 0.90000000000000002]
+Transmission Gain: 5.75
+
+
+USRP 2
+OFDM with Modulation: qam16
+Symbol Bandwidth: 250000.0
+Packet Size Before Header and CRC: [508, 510, 512]
+Number of Occupied Tones: 200
+Cyclic Prefix Length: 128
+FFT Length: 256
+
+ON State Emission Probabilities: [0.5, 0.5, 0]
+ON State Packet Bunch Sizes: [5, 10, 15]
+ON State Packet Bunch Transmission Amplitudes: [0.90000000000000002, 0.90000000000000002, 0.90000000000000002]
+Transmission Gain: 5.75
+
+
+Mean Duration of OFF State (without Default Sleep Time): 0.3
+Minimum Sleep Time After Transmission: 0.4
+Maximum Sleep Time After Transmision: 0.9
+
+
+
+
+Idle -> State 1, USRP 1 -> State 2, USRP 2 -> State 3
+Output State	No. of Packets	Packet Size (bytes)	Duration (secs)
+2		10		510			0.0108370780945
+1		0					0.864985061055
+2		10		510			0.000570058822632
+1		0					0.821016558405
+2		5		508			0.000277042388916
+1		0					0.422747929106
+2		5		508			0.000265121459961
+1		0					0.626664724196
+3		5		508			0.00025486946106
+1		0					0.563739205522
+2		10		510			0.000700950622559
+1		0					0.515284437759
+2		10		510			0.000548839569092
+1		0					0.9
+2		5		508			0.000226020812988
+1		0					0.9
+2		10		510			0.000648975372314
+1		0					0.616417183426
+3		5		508			0.000295877456665
+1		0					0.424250053406
+2		5		508			0.000298976898193
+1		0					0.498331301095
+3		10		510			0.000585794448853
+1		0					0.582659251863
+3		5		508			0.000288963317871
+1		0					0.82874927088
+3		5		508			0.000283002853394
+1		0					0.528346107048
+3		10		510			0.000827789306641
+1		0					0.539496192727
+2		5		508			0.000272035598755
+1		0					0.602135637895
+3		5		508			0.000310897827148
+1		0					0.755216893834
+3		5		508			0.00020694732666
+1		0					0.9
+3		10		510			0.000665903091431
+1		0					0.666307491839
+3		10		510			0.000785112380981
+1		0					0.625075512726
+3		5		508			0.000272989273071
+1		0					0.9
+3		5		508			0.000226020812988
+1		0					0.9
+3		10		510			0.00077486038208
+1		0					0.680960099946
+2		10		510			0.000956058502197
+1		0					0.428101322935
+2		5		508			0.000205039978027
+1		0					0.443947809512
+2		10		510			0.000605821609497
+1		0					0.68358397398
+2		10		510			0.000785827636719
+1		0					0.628371252593
+3		5		508			0.000279903411865
+1		0					0.430343238948
+3		5		508			0.00026798248291
+1		0					0.438872805504
+3		10		510			0.000854015350342
+1		0					0.66753666587
+2		5		508			0.000257968902588
+1		0					0.427785478316
+2		5		508			0.000287055969238
+1		0					0.543704205869
+2		5		508			0.000308990478516
+1		0					0.739236784442
+2		5		508			0.000298976898193
+1		0					0.543426910708
+2		10		510			0.000787019729614
+1		0					0.598277393591
+2		10		510			0.000763893127441

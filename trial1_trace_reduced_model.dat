@@ -1,0 +1,267 @@
+Data Read in from File : trial1_trace
+Data Sampling Frequency: 1000000.000000 Hz
+Data Sampling Period: 0.000001 sec
+New Sampling Frequency After Decimation: 1000.000000 Hz
+New Sampling Period After Decimation: 0.001000 sec
+
+Inference Parameters and Other Details
+New Data Set Length: 12001
+Dimension of Observations: 2
+
+
+
+Statistics for Each State
+
+State 1 (Posterior Model State 2)
+Poisson Rate lambda = 17.618332
+Multivariate Gaussian Mean Vector mu = 0.014703	0.000307	
+Multivariate Gaussian Covariance Matrix sigma: 
+0.163346	0.002831	
+0.002831	0.148746	
+
+State 2 (Posterior Model State 3)
+Poisson Rate lambda = 135.001746
+Multivariate Gaussian Mean Vector mu = 0.011894	0.003213	
+Multivariate Gaussian Covariance Matrix sigma: 
+0.109861	-0.001406	
+-0.001406	0.093101	
+
+State 3 (Posterior Model State 4)
+Poisson Rate lambda = 176.176649
+Multivariate Gaussian Mean Vector mu = -0.000285	-0.000190	
+Multivariate Gaussian Covariance Matrix sigma: 
+0.000254	-0.000001	
+-0.000001	0.000236	
+
+
+
+
+
+State Transition Matrix
+0.000000	0.891632	0.108368	
+0.990436	0.000000	0.009564	
+0.014701	0.985299	0.000000	
+
+Initial State Distribution
+0.470386	0.474105	0.055509	
+
+
+Maximum Number of States Possible: 3
+Transition Distribution Hyperparameters ~Dir(alpha/Nmax, gamma): 
+	 alpha = 3.000000
+	 gamma = 3.000000
+Initial State Hyperparameter ~Dir(rho/Nmax): 3.000000
+Number of Iterations : 1
+*****************************************************
+
+
+
+
+
+
+
+
+
+Resulting State Sequence After Last Iteration
+State 	 Duration 
+2 	      132
+1 	      17
+2 	      151
+1 	      7
+2 	      126
+1 	      19
+2 	      105
+1 	      24
+2 	      134
+1 	      22
+2 	      138
+1 	      13
+2 	      143
+1 	      18
+2 	      141
+1 	      14
+2 	      138
+1 	      10
+2 	      130
+1 	      15
+2 	      130
+1 	      11
+2 	      149
+1 	      14
+2 	      136
+1 	      8
+2 	      138
+1 	      19
+2 	      147
+1 	      13
+2 	      131
+1 	      21
+2 	      133
+1 	      9
+2 	      138
+1 	      8
+2 	      133
+1 	      11
+2 	      157
+1 	      14
+2 	      128
+1 	      24
+2 	      143
+1 	      9
+2 	      120
+1 	      17
+2 	      154
+1 	      19
+2 	      114
+1 	      15
+2 	      146
+1 	      13
+2 	      138
+1 	      17
+2 	      143
+1 	      15
+2 	      131
+1 	      14
+2 	      129
+1 	      20
+2 	      125
+1 	      14
+3 	      181
+1 	      8
+3 	      170
+1 	      13
+3 	      206
+1 	      22
+3 	      171
+1 	      15
+3 	      159
+2 	      146
+1 	      19
+2 	      128
+1 	      20
+2 	      123
+1 	      10
+2 	      137
+1 	      13
+2 	      135
+1 	      7
+2 	      113
+3 	      145
+1 	      5
+3 	      182
+2 	      121
+1 	      9
+2 	      115
+1 	      13
+2 	      129
+1 	      14
+2 	      135
+1 	      17
+2 	      150
+1 	      13
+2 	      135
+1 	      18
+2 	      132
+1 	      9
+2 	      136
+1 	      20
+2 	      134
+1 	      18
+2 	      141
+1 	      15
+3 	      194
+1 	      9
+3 	      173
+1 	      11
+3 	      183
+1 	      11
+3 	      172
+1 	      7
+3 	      178
+2 	      140
+1 	      19
+2 	      106
+1 	      17
+2 	      135
+1 	      10
+2 	      141
+1 	      13
+2 	      149
+1 	      10
+2 	      131
+3 	      159
+1 	      11
+3 	      154
+2 	      117
+1 	      10
+2 	      109
+3 	      202
+1 	      7
+3 	      213
+1 	      10
+3 	      187
+1 	      15
+3 	      177
+1 	      12
+3 	      168
+1 	      17
+3 	      174
+2 	      148
+1 	      16
+2 	      142
+
+
+
+Statistics for Each State
+
+State 1
+Poisson Rate lambda = 15.007578
+Multivariate Gaussian Mean Vector mu = -0.002040	0.007737	
+Multivariate Gaussian Covariance Matrix sigma: 
+0.042769	0.004299	
+0.004299	0.025338	
+
+State 2
+Poisson Rate lambda = 132.290070
+Multivariate Gaussian Mean Vector mu = 0.002805	0.000042	
+Multivariate Gaussian Covariance Matrix sigma: 
+0.031162	-0.000376	
+-0.000376	0.027135	
+
+State 3
+Poisson Rate lambda = 170.729115
+Multivariate Gaussian Mean Vector mu = -0.005298	0.002062	
+Multivariate Gaussian Covariance Matrix sigma: 
+0.041986	0.000601	
+0.000601	0.035053	
+
+
+
+
+
+State Transition Matrix
+State 1		0.000000	0.268314	0.731686	
+State 2		0.655488	0.000000	0.344512	
+State 3		0.024711	0.975289	0.000000	
+
+Initial State Distribution
+0.565239	0.110791	0.323970	
+
+
+
+
+
+State Transition Counting Matrix
+State 1		0	51	17	
+State 2		53	0	3	
+State 3		15	5	0	
+
+
+Normalized State Transition Counting Matrix
+State 1		0.000000	0.750000	0.250000	
+State 2		0.946429	0.000000	0.053571	
+State 3		0.750000	0.250000	0.000000	
+
+
+
+

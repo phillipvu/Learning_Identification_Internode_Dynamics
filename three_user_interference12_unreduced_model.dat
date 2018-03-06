@@ -1,0 +1,223 @@
+Data Read in from File : three_user_interference12
+Data Sampling Frequency: 1000000.000000 Hz
+Data Sampling Period: 0.000001 sec
+New Sampling Frequency After Decimation: 125.000000 Hz
+New Sampling Period After Decimation: 0.008000 sec
+
+Inference Parameters and Other Details
+New Data Set Length: 1345
+Dimension of Observations: 2
+Maximum Number of States Possible: 4
+
+State 1 Duration Hyperparameters ~Gamma(k,theta): k = 20.000000, theta = 8.000000
+State 1 Observation Hyperparameters ~IW(mu,sigma,nu,kappa): 
+	 mu = 0.000000	0.000000	
+	 sigma = 1.000000	0.000000	
+			 0.000000	1.000000	
+	 nu = 5.000000
+	 kappa = 10.000000
+State 2 Duration Hyperparameters ~Gamma(k,theta): k = 10.000000, theta = 5.000000
+State 2 Observation Hyperparameters ~IW(mu,sigma,nu,kappa): 
+	 mu = 0.030000	0.030000	
+	 sigma = 1.000000	0.000000	
+			 0.000000	1.000000	
+	 nu = 8.000000
+	 kappa = 5.000000
+State 3 Duration Hyperparameters ~Gamma(k,theta): k = 8.000000, theta = 5.000000
+State 3 Observation Hyperparameters ~IW(mu,sigma,nu,kappa): 
+	 mu = 0.035000	0.035000	
+	 sigma = 1.000000	0.000000	
+			 0.000000	1.000000	
+	 nu = 11.000000
+	 kappa = 5.000000
+State 4 Duration Hyperparameters ~Gamma(k,theta): k = 20.000000, theta = 4.000000
+State 4 Observation Hyperparameters ~IW(mu,sigma,nu,kappa): 
+	 mu = 0.005000	0.005000	
+	 sigma = 1.000000	0.000000	
+			 0.000000	1.000000	
+	 nu = 17.000000
+	 kappa = 7.000000
+
+
+
+Transition Distribution Hyperparameters ~Dir(alpha/Nmax, gamma): 
+	 alpha = 3.000000
+	 gamma = 3.000000
+Initial State Hyperparameter ~Dir(rho/Nmax): 3.000000
+Number of Iterations : 75
+*****************************************************
+
+
+
+
+
+
+
+
+
+Initial Draw for Posterior Model
+Statistics for Each State
+State 1
+Poisson Rate lambda = 189.377598
+Multivariate Gaussian Mean Vector mu = -0.051369	-0.549611	
+Multivariate Gaussian Covariance Matrix sigma: 
+0.220353	0.153761	
+0.153761	2.911236	
+
+State 2
+Poisson Rate lambda = 56.751879
+Multivariate Gaussian Mean Vector mu = -0.430676	-0.074667	
+Multivariate Gaussian Covariance Matrix sigma: 
+0.600321	-0.030430	
+-0.030430	0.169200	
+
+State 3
+Poisson Rate lambda = 70.880505
+Multivariate Gaussian Mean Vector mu = -0.075037	0.019460	
+Multivariate Gaussian Covariance Matrix sigma: 
+0.136012	-0.039753	
+-0.039753	0.061609	
+
+State 4
+Poisson Rate lambda = 112.003555
+Multivariate Gaussian Mean Vector mu = -0.006979	0.084255	
+Multivariate Gaussian Covariance Matrix sigma: 
+0.084225	0.004160	
+0.004160	0.034584	
+
+
+State Transition Matrix
+0.000000	0.000273	0.999726	0.000000	
+0.123965	0.000000	0.785727	0.090308	
+0.999587	0.000411	0.000000	0.000002	
+0.404297	0.000015	0.595687	0.000000	
+
+Initial State Distribution
+0.101541	0.375266	0.031177	0.492016	
+*************************************************************************
+
+
+
+
+
+
+
+
+
+Resulting State Sequence After Last Iteration
+State 	 Duration 
+4 	      53
+2 	      1
+4 	      32
+2 	      1
+4 	      42
+2 	      12
+4 	      18
+2 	      6
+4 	      41
+2 	      6
+4 	      25
+2 	      6
+4 	      26
+2 	      12
+4 	      28
+2 	      7
+4 	      41
+2 	      6
+4 	      23
+2 	      12
+4 	      39
+2 	      11
+4 	      17
+2 	      6
+4 	      18
+2 	      13
+3 	      26
+2 	      11
+3 	      16
+2 	      6
+3 	      32
+2 	      15
+4 	      26
+3 	      9
+2 	      12
+4 	      35
+2 	      11
+4 	      15
+2 	      6
+4 	      21
+2 	      11
+3 	      23
+2 	      6
+3 	      21
+2 	      6
+3 	      41
+2 	      7
+4 	      28
+2 	      6
+4 	      28
+2 	      6
+4 	      18
+2 	      11
+4 	      23
+2 	      6
+3 	      13
+4 	      12
+2 	      12
+3 	      20
+2 	      6
+3 	      37
+2 	      6
+3 	      20
+2 	      12
+3 	      17
+2 	      7
+4 	      20
+2 	      6
+4 	      36
+2 	      11
+3 	      13
+2 	      13
+3 	      23
+2 	      12
+3 	      15
+2 	      12
+3 	      15
+2 	      12
+3 	      26
+
+
+
+Statistics for Each State
+
+State 1
+Poisson Rate lambda = 194.427831
+Multivariate Gaussian Mean Vector mu = 0.102170	0.133374	
+Multivariate Gaussian Covariance Matrix sigma: 
+0.191236	-0.003135	
+-0.003135	0.177002	
+
+State 2
+Poisson Rate lambda = 8.723782
+Multivariate Gaussian Mean Vector mu = -0.013605	-0.023179	
+Multivariate Gaussian Covariance Matrix sigma: 
+0.401197	-0.000008	
+-0.000008	0.335155	
+
+State 3
+Poisson Rate lambda = 22.507560
+Multivariate Gaussian Mean Vector mu = 0.005691	-0.003642	
+Multivariate Gaussian Covariance Matrix sigma: 
+0.009302	-0.000624	
+-0.000624	0.009492	
+
+
+
+
+
+State 4 is the Idle State
+
+Reduced State Transition Matrix
+State 2		0.000000	0.429321	0.570679	
+State 3		0.978534	0.000000	0.021466	
+State 4		0.939616	0.060384	0.000000	
